@@ -1,11 +1,11 @@
 const aboutItems = [
   {
     label: "Projects done",
-    number: 45,
+    number: 10,
   },
   {
     label: "Years of experience",
-    number: 10,
+    number: 2,
   },
 ];
 
@@ -18,7 +18,7 @@ const About = () => {
             Welcome! I&apos;m Abimbola, a professional web developer with a
             knack for crafting visually stunning and highly functional websites.
             Combining creativity and technical expertise. I transform your
-            vision into digital masterpiece that excels in both appearance and
+            vision into digital masterpieces that excel in both appearance and
             performance.
           </p>
           <div className="flex flex-wrap items-center gap-4 md:gap-7">

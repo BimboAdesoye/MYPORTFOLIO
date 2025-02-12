@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
+const ButtonPrimary = ({ href, download, target = "_self", label, icon, classes }) => {
   if (href) {
     return (
-      <a href={href} target={target} className={"btn btn-primary " + classes}>
+      <a href={href} download={download} target={target} className={"btn btn-primary " + classes}>
         {label}
         {icon ? (
           <span className="material-symbols-rounded" aria-hidden="true">
@@ -29,6 +29,7 @@ const ButtonPrimary = ({ href, target = "_self", label, icon, classes }) => {
 ButtonPrimary.propTypes = {
   label: PropTypes.string.isRequired,
   href: PropTypes.string,
+  download: PropTypes.string,
   target: PropTypes.string,
   icon: PropTypes.string,
   classes: PropTypes.string,
