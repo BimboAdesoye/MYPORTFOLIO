@@ -8,6 +8,12 @@ const works = [
     projectLink: "https://mavlontours.com/",
   },
   {
+    imgSrc: "/images/Screenshot 2025-03-05 at 10-32-23 KANBAN.png",
+    title: "KANBAN Task Management App - TaskAlign ",
+    tags: ["CRUD"],
+    projectLink: "https://taskalign.netlify.app/",
+  },
+  {
     imgSrc: "/images/Screenshot 2024-12-05 at 06-12-31 Perfumery.png",
     title: "eCommerce Website - Perfumery",
     tags: ["API", "MVC", "Development"],
