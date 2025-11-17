@@ -5,7 +5,7 @@ const works = [
     imgSrc: "/images/Mavlon.jpg",
     title: "Travel Website - Mavlon Tours",
     tags: ["Website Development"],
-    projectLink: "https://mavlontours.com/",
+    projectLink: "https://mavlon-tour.netlify.app/",
   },
   {
     imgSrc: "/images/Screenshot 2025-03-05 at 10-32-23 KANBAN.png",
